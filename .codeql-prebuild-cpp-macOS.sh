@@ -12,7 +12,7 @@ dependencies=(
   "opus"
   "pkg-config"
 )
-brew install "${dependencies[@]}"
+arch -arm64 brew install "${dependencies[@]}"
 
 # build
 mkdir -p build
